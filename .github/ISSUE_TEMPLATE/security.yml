@@ -1,0 +1,8 @@
+name: Security problem
+description: A vulnerability in the site. Do not include exploit details that would harm readers; describe the problem and how to reach you.
+labels: [security]
+body:
+  - type: textarea
+    id: what
+    attributes: { label: Description }
+    validations: { required: true }

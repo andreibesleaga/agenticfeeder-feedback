@@ -1,0 +1,11 @@
+name: Remove my source
+description: You publish a source shown on the site and want it removed.
+labels: [removal]
+body:
+  - type: input
+    id: source
+    attributes: { label: Source name or feed address }
+    validations: { required: true }
+  - type: textarea
+    id: note
+    attributes: { label: Anything else (optional) }

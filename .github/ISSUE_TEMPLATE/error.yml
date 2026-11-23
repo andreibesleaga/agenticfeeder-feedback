@@ -1,0 +1,12 @@
+name: Report an error
+description: An AI-written entry, summary or link is wrong or misrepresents its source.
+labels: [error]
+body:
+  - type: input
+    id: page
+    attributes: { label: Page address, placeholder: "https://agenticfeeder.com/..." }
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes: { label: What is wrong, description: Quote the sentence and say what the source actually says. }
+    validations: { required: true }
